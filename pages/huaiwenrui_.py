@@ -28,3 +28,13 @@ def page3():
 def page4():
     '''留言区'''
     st.write('有没有跟我兴趣相投的人，快来和我交流吧。')
+
+
+if page == '我的兴趣推荐':
+    page1()
+elif page == '我的图片处理工具':
+    page2()
+elif page == '我的智慧词典':
+    page3()
+elif page == '我的留言区':
+    page4()
