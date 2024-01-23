@@ -7977,5 +7977,3 @@
 7984#zone#n.地带，区域，区#
 7985#zoo#n.动物园#
 7986#zoology#n.动物学#
-7987#python#恭喜你触发彩蛋，这是一行python代码 print('hello world')#
-7988#lujiaoyang#
