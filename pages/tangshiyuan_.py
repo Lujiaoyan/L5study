@@ -4,7 +4,7 @@ import pandas as pd
 
 with open("wa.mp3","rb") as h:
     mp31=h.read()
-with open("we.mp3","rb") as j:
+with open("We.mp3","rb") as j:
     mp32=j.read()
 with open("oh.mp3","rb") as q:
     mp33=q.read()
