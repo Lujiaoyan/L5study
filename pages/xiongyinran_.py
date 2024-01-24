@@ -1,7 +1,6 @@
 '''我的主页'''
 import streamlit as st
 from PIL import Image,ImageOps,ImageFilter
-import matplotlib.pyplot as plt
 page=st.sidebar.radio('我的首页',['我的兴趣推荐','我的图片处理工具','我的智慧词典','我的留言区'])
 def page1():
     '''兴趣推荐'''
@@ -38,7 +37,6 @@ def img_sketch(img):
     width,height=img.size
     _,axes=plt.subplots(1,5,figsize=(30,30))
     img_gray=img.convert('L')
-    plt.rcParams['image.cmap']='gray'
     img_invert=ImageOps.invert(img_gray)
     img_gaussian=img_invert.filter(ImageFilter.GaussianBlur(5))
     for x in range(width):
