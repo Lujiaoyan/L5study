@@ -40,7 +40,7 @@ def img_change(img):
             g=img_array[x,y][gc]
             b=img_array[x,y][bc]
             img_array[x,y]=(r,g,b)
-        return img
+    return img
         
 def page2():
     '''图片处理工具'''
