@@ -29,7 +29,7 @@ def page1():
     st.write("-----------------------------")
 
     
-def img_change(img):
+def img_change(img,rc,gc,bc):
 
     width,height=img.size
     img_array=img.load()
