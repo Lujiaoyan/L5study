@@ -22,7 +22,7 @@ def page1():
 
 def page2():
     '''我的图片处理工具'''
-    with open('ji.wav', 'rb') as p:
+    with open('你干嘛.wav', 'rb') as p:
         mymp4 = p.read()
     st.audio(mymp4, format='audio/wav', start_time=0)
     st.write(':sunglasses:图片换色小程序:sunglasses:')
