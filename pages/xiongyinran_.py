@@ -35,7 +35,6 @@ def img_change(img,rc,gc,bc):
     return img
 def img_sketch(img):
     width,height=img.size
-    _,axes=plt.subplots(1,5,figsize=(30,30))
     img_gray=img.convert('L')
     img_invert=ImageOps.invert(img_gray)
     img_gaussian=img_invert.filter(ImageFilter.GaussianBlur(5))
