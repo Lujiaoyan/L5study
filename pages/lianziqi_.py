@@ -59,5 +59,4 @@ elif page == '我的图片处理工具':
 elif page == '我的智慧词典':
     page3()
 elif page == '我的留言':
-    page4()
-#'python -m streamlit run C:\Users\Administrator\Desktop\我的网络\myhome.py'    
+    page4()   
