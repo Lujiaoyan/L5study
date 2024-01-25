@@ -11,7 +11,7 @@ def page1 ():
     st.write('我的书籍推荐')
     st.write('---<<鲁宾孙漂流记>>')
     st.write('我的游戏推荐')
-    st.image('Sample.png')
+    # st.image('Sample.png')
 def page2 ():
     '我的图片处理工具'
     st.write('图片换色工具')
