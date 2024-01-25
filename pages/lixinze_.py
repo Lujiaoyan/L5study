@@ -32,7 +32,7 @@ def page_2():
         with tab1:
             st.image(img)
         with tab2:
-            st.image(img change(img, 0, 2, 1))
+            st.image(img_change(img, 0, 2, 1))
         with tab3:
             st.image(img_change(img, 1, 2, 0))
         with tab4:
